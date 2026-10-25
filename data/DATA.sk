@@ -43,6 +43,8 @@ function Create_Societe(p: player,n: text):
     set {Societe_%{_id}%::level} to 1
     set {Societe_%{_id}%::reputation} to 0
     set {Societe_%{_id}%::CA} to 0
+    set {SOCIETE_%{_id}%::prestige} to 0
+    set {SOCIETE_%{_id}%::date} to now
     
     createsocietemessage({_p},{_name})
 
